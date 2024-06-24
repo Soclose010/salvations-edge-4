@@ -77,7 +77,7 @@ export class App {
       figureImg.alt = form.figure.name;
       currentFigures += `${form.side.toUpperCase()}: ${figureImg.outerHTML} `;
     });
-    figures.innerHTML = currentFigures.substring(0, currentFigures.length - 2);
+    figures.innerHTML = currentFigures.substring(0, currentFigures.length - 1);
     this.solutionStep.append(figures);
   }
 
