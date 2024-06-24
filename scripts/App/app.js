@@ -60,7 +60,7 @@ export class App {
     edgeImg.src = `./images/${edge}.svg`;
     edgeImg.alt = edge;
     dissect.classList.add("solution__step-dissect");
-    dissect.innerHTML = `${number} dissect  ${
+    dissect.innerHTML = `${number}. dissect  ${
       edgeImg.outerHTML
     } from ${form.side.toUpperCase()}.`;
     this.solutionStep.append(dissect);
