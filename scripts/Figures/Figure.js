@@ -40,7 +40,7 @@ export class Figure {
         return "cylinder";
       }
       if (edgesSet.has("triangle") && edgesSet.has("square")) {
-        return "zalupaider";
+        return "prism";
       }
       if (edgesSet.has("triangle") && edgesSet.has("circle")) {
         return "cone";

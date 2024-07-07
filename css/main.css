@@ -138,6 +138,8 @@ footer {
 .figure__img {
   filter: invert(1);
   width: 80%;
+  min-width: 65px;
+  min-height: 65px;
 }
 
 .hover {
